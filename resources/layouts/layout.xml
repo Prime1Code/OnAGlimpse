@@ -1,0 +1,25 @@
+<layout id="WatchFace">       
+    <label id="BatteryLabel" x="82" y="52" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="battery" x="38" y="50" filename="../drawables/battery.png" />
+    
+    <label id="MessagesLabel" x="184" y="52" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="message" x="198" y="52" filename="../drawables/message2.png" />
+    
+    <label id="WeekofYearLabel" x="90" y="78" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="cal" x="center" y="75" filename="../drawables/cal.png" />
+    <label id="DateLabel" x="185" y="78" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    
+    <label id="TimeLabel" x="center" y="center" font="Gfx.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    
+    <label id="FloorsLabel" x="104" y="172" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="floors" x="68" y="168" filename="../drawables/floor.png" />
+    
+    <label id="StepsLabel" x="200" y="172" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="steps" x="145" y="170" filename="../drawables/feet2.png" />  
+    
+    <label id="HrLabel" x="center" y="220" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <bitmap id="heart" x="center" y="195" filename="../drawables/heart.png" />
+    
+    <label id="TestLabel" x="80" y="220" font="Gfx.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    
+</layout>
