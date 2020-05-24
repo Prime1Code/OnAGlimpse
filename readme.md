@@ -1,5 +1,7 @@
 Watchface for Garmin Multisport Smartwatch Vivoactive 4
 
+![](https://github.com/Prime1Code/OnAGlimpse/blob/master/demo.png)
+
 Icons by Icons8
 * <a target="_blank" href="https://icons8.com/icons/set/charge-battery">Charging Battery icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 * <a target="_blank" href="https://icons8.com/icons/set/bluetooth-2">Bluetooth 2 icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
