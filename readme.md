@@ -1,5 +1,6 @@
 Watchface for Garmin Multisport Smartwatch Vivoactive 3 and 4
 
+![](https://github.com/Prime1Code/OnAGlimpse/blob/master/demo_va3.png)
 ![](https://github.com/Prime1Code/OnAGlimpse/blob/master/demo.png)
 
 Icons by Icons8
