@@ -15,11 +15,13 @@ class OnAGlimpseView extends WatchUi.WatchFace {
 	var heartRate;
 	var lastHeartRate;
 	var lastMessageCount;
+	var device;
 	//var test;
 
     function initialize() {
         WatchFace.initialize(); 
         bluetoothView = WatchUi.loadResource(Rez.Drawables.bluetooth);
+        device = WatchUi.loadResource(Rez.Strings.device);
         //test = "";
     }
 
@@ -127,7 +129,7 @@ class OnAGlimpseView extends WatchUi.WatchFace {
 	    }
         
        	// Test
-		//var testString = Lang.format ("$1$", [test]);
+		//var testString = Lang.format ("$1$", [device]);
         //view10.setText(testString);
         
         // Call the parent onUpdate function to redraw the layout
@@ -135,7 +137,12 @@ class OnAGlimpseView extends WatchUi.WatchFace {
         
         // Bluetooth
         if (isPhoneConnected()) {
-        	dc.drawBitmap(cX-12, 45, bluetoothView);
+        	if ("va4".equals(device)) {
+        		dc.drawBitmap(cX-12, 45, bluetoothView);
+        	}
+        	else {
+        		dc.drawBitmap(cX-12, 38, bluetoothView);
+        	}
         } 
     }
 
