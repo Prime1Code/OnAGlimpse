@@ -1,4 +1,4 @@
-Watchface for Garmin Multisport Smartwatch Vivoactive 4
+Watchface for Garmin Multisport Smartwatch Vivoactive 3 and 4
 
 ![](https://github.com/Prime1Code/OnAGlimpse/blob/master/demo.png)
 
