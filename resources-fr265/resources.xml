@@ -1,0 +1,9 @@
+<resources>
+	<bitmap id="LauncherIcon" filename="drawables/launcher_icon.png" />
+    <bitmap id="heart" filename="drawables/heart.png" />
+    <bitmap id="battery" filename="drawables/battery.png" />
+    <bitmap id="bluetooth" filename="images/bluetooth.png" />
+    <bitmap id="message" filename="drawables/message2.png" />
+    <bitmap id="floors" filename="drawables/floor.png" />
+    <bitmap id="feet" filename="drawables/feet2.png" />
+</resources>
